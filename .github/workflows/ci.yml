@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The steps below start running once the Next.js app (and pnpm-lock.yaml) exists in week 1.
+      - uses: pnpm/action-setup@v4
+        if: hashFiles('pnpm-lock.yaml') != ''
+
+      - uses: actions/setup-node@v4
+        if: hashFiles('pnpm-lock.yaml') != ''
+        with:
+          node-version: lts/*
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+        if: hashFiles('pnpm-lock.yaml') != ''
+
+      - name: Lint
+        if: hashFiles('pnpm-lock.yaml') != ''
+        run: pnpm lint
+
+      - name: Typecheck
+        if: hashFiles('pnpm-lock.yaml') != ''
+        run: pnpm typecheck
+
+      - name: Test
+        if: hashFiles('pnpm-lock.yaml') != ''
+        run: pnpm test
