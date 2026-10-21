@@ -8,7 +8,7 @@ Sofrana aynı yemeğin onlarca versiyonunu karşılaştırır, aşçıların ço
 
 *Sofrana — her yemeğin tek tarifi.*
 
-[Canlı demo](#) · [Tanıtım videosu](#) · [Yol haritası](docs/ROADMAP.md) · [English](README.md)
+[Yol haritası](docs/ROADMAP.md) · [English](README.md) · Canlı demo ve video: yakında
 
 </div>
 
@@ -98,8 +98,8 @@ pnpm dev                     # http://localhost:3000
 
 | | Sorumlu olduğu kısımlar |
 | --- | --- |
-| **A · [İsim A](https://github.com/)** | Konsensüs hattı ve "Neden böyle?" paneli, "Elimde ne var?" araması, yöresel harita · veritabanı şeması, veri betikleri, yönetim formu |
-| **B · [İsim B](https://github.com/)** | Kişi sayısı ve Menü oluştur, sesli mutfak modu, PWA · proje kurulumu, CI, tasarım sistemi, giriş |
+| **A** · İsim A | Konsensüs hattı ve "Neden böyle?" paneli, "Elimde ne var?" araması, yöresel harita · veritabanı şeması, veri betikleri, yönetim formu |
+| **B** · İsim B | Kişi sayısı ve Menü oluştur, sesli mutfak modu, PWA · proje kurulumu, CI, tasarım sistemi, giriş |
 
 Her PR'ı diğerimiz inceleyip onaylamadan birleştirilmez. Ayrıntılar için [CONTRIBUTING.md](CONTRIBUTING.md).
 

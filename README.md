@@ -8,7 +8,7 @@ Sofrana compares dozens of versions of the same dish, extracts the "consensus re
 
 <sub>The name comes from *sofra*, the Turkish word for the table where a meal is shared.</sub>
 
-[Live demo](#) · [Demo video](#) · [Roadmap](docs/ROADMAP.md) · [Türkçe](README.tr.md)
+[Roadmap](docs/ROADMAP.md) · [Türkçe](README.tr.md) · Live demo and video: coming soon
 
 ![CI](https://github.com/sofrana/sofrana/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -207,10 +207,10 @@ To try it on your phone, open the live demo and choose **Add to Home Screen**.
 
 ## Team
 
-| | Owns | Contact |
-| --- | --- | --- |
-| **A · [Name A](https://github.com/)** | Consensus pipeline and "Why this way?" panel, fridge search, regional map · database schema, data scripts, admin form | [LinkedIn](#) |
-| **B · [Name B](https://github.com/)** | Smart servings and menu builder, voice kitchen mode, PWA · project setup, CI, design system, auth | [LinkedIn](#) |
+| | Owns |
+| --- | --- |
+| **A** · Name A | Consensus pipeline and "Why this way?" panel, fridge search, regional map · database schema, data scripts, admin form |
+| **B** · Name B | Smart servings and menu builder, voice kitchen mode, PWA · project setup, CI, design system, auth |
 
 Every pull request is reviewed and approved by the other person before it is merged. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
