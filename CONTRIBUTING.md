@@ -28,7 +28,7 @@ Sofrana is built by two people. We work like a real team so the Git history tell
 
 - `main` is protected: no direct pushes, one approval and a green CI are required.
 - Keep pull requests small (ideally under 400 changed lines).
-- Review within one working day.
+- Review within two hours during the sprint.
 - Every change to `src/lib/core` comes with tests.
 - UI changes include a screenshot or a short screen recording in the PR.
 - If Claude helped, explain the change in your own words in the PR description.
@@ -42,11 +42,13 @@ pnpm typecheck
 pnpm test
 ```
 
-## Weekly rhythm
+## Daily rhythm
 
-- **Monday:** 15 minutes to agree on the week's issues on the project board
-- **During the week:** small PRs, reviews within a day
-- **Friday:** each person demos what they finished; short notes go to [`docs/weekly-notes.md`](docs/weekly-notes.md)
+We build Sofrana in a 10-day sprint (see the [roadmap](docs/ROADMAP.md)).
+
+- **09:30 stand-up (15 min):** what I finished, what I do today, what blocks me
+- **During the day:** small PRs, review the other person's PR within two hours
+- **17:30 demo (15 min):** show what was merged today; two lines each in [`docs/daily-notes.md`](docs/daily-notes.md)
 
 ## Labels
 
@@ -55,6 +57,6 @@ pnpm test
 | `epic` | One of the six core features |
 | `feature` | A piece of an epic |
 | `bug` | Something broken |
-| `idea` | Not planned before week 10 |
+| `idea` | Not started before day 10 is done |
 | `owner:a` / `owner:b` | Who owns it |
-| `week:1`, `week:2`, … | Planned week |
+| `day:1` … `day:10` | Planned day |

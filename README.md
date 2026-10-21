@@ -15,7 +15,7 @@ Sofrana compares dozens of versions of the same dish, extracts the "consensus re
 
 </div>
 
-> **Status:** in active development (week 1 of 12). A non-commercial portfolio project built by two junior full stack developers.
+> **Status:** in active development (day 1 of a 10-day sprint). A non-commercial portfolio project built by two junior full stack developers in two weeks.
 
 <!-- Replace with a real screenshot or GIF once the recipe page exists -->
 <!-- ![Recipe page with the "Why this way?" panel](docs/assets/recipe-page.png) -->
@@ -40,7 +40,7 @@ Sofrana solves this with three ideas:
 | 2 | **Smart servings + menu builder** | Unit conversion, non-linear scaling rules, a cooking-order scheduler | B |
 | 3 | **Voice kitchen mode** | Speech recognition, rule-based command parsing, Claude tool use | B |
 | 4 | **"What's in my fridge?" search** | Postgres full-text + trigram search, typo tolerance | A |
-| 5 | **Regional cuisine map** | Interactive SVG map of 15 provinces, regional recipe variants | A |
+| 5 | **Regional cuisine map** | Interactive SVG map of 5 provinces with their dishes | A |
 | 6 | **Installable on your phone (PWA)** | Add to home screen, screen stays awake while cooking, recent recipes offline | B |
 
 Each of us owns three features end to end, from the database to the screen. Every feature has a measurable definition of done in the [roadmap](docs/ROADMAP.md#definition-of-done).
@@ -96,7 +96,7 @@ flowchart LR
 | `search_recipe` | "Yarım saatte biten vejetaryen bir şey" | Claude |
 | `ask_substitute` | "Tereyağı yerine ne koyabilirim?" | Claude |
 
-Accuracy is measured on a 20-command test set recorded with three voices and kitchen background noise. Results: _coming in week 8_.
+Accuracy is measured on a 20-command test set recorded with three voices and kitchen background noise. Results: _coming on day 8_.
 
 Speech recognition works in Chrome and Safari but not Firefox; where it is missing, the mic button is hidden and a typed command box is always available.
 
@@ -105,7 +105,7 @@ Speech recognition works in Chrome and Safari but not Firefox; where it is missi
 ```mermaid
 flowchart TB
     subgraph Sources
-        V[Recipe versions<br/>hand-curated, 50 dishes]
+        V[Recipe versions<br/>hand-curated, 15 dishes]
         T[Google Trends<br/>manual check]
         S[In-app signals<br/>cooked · worked]
     end
@@ -159,7 +159,7 @@ sofrana/
 │   └── versions/             # Hand-curated ingredient lists (CSV) with source URLs
 ├── tests/e2e/                # Playwright tests
 ├── public/                   # Icons, manifest assets
-└── docs/                     # Roadmap, architecture notes, weekly notes
+└── docs/                     # Roadmap, architecture notes, daily notes
 ```
 
 ## Getting started
@@ -203,14 +203,14 @@ To try it on your phone, open the live demo and choose **Add to Home Screen**.
 | Test coverage on core logic (scaling, consensus, command parser) | ≥ 70 % | — |
 | Voice command accuracy (20-command test set) | ≥ 90 % | — |
 | Search latency for 3 ingredients | < 300 ms | — |
-| Content | 50 dishes, 15 provinces, TR + EN | 0 / 50 |
+| Content | 15 dishes, 5 provinces, TR + EN | 0 / 15 |
 
 ## Team
 
 | | Owns |
 | --- | --- |
-| **A** · Name A | Consensus pipeline and "Why this way?" panel, fridge search, regional map · database schema, data scripts, admin form |
-| **B** · Name B | Smart servings and menu builder, voice kitchen mode, PWA · project setup, CI, design system, auth |
+| **A** · Name A | Consensus pipeline and "Why this way?" panel, fridge search, regional map · database schema, data scripts, admin form, auth |
+| **B** · [@kutluktaskin](https://github.com/kutluktaskin) | Smart servings and menu builder, voice kitchen mode, PWA · project setup, CI, Vercel, design system |
 
 Every pull request is reviewed and approved by the other person before it is merged. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
