@@ -7,5 +7,19 @@
     "tagline": "One recipe per dish, backed by data.",
     "status": "Under construction.",
     "switchLanguage": "Türkçe"
+  },
+  "Auth": {
+    "title": "Admin sign in",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "invalidCredentials": "Wrong email or password.",
+    "missingFields": "Email and password are required."
+  },
+  "Admin": {
+    "title": "Admin",
+    "signedInAs": "Signed in as {email}",
+    "signOut": "Sign out"
   }
 }
