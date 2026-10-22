@@ -8,7 +8,7 @@ Sofrana compares dozens of versions of the same dish, extracts the "consensus re
 
 <sub>The name comes from *sofra*, the Turkish word for the table where a meal is shared.</sub>
 
-[Roadmap](docs/ROADMAP.md) · [Türkçe](README.tr.md) · Live demo and video: coming soon
+[Roadmap](docs/ROADMAP.md) · [Türkçe](README.tr.md) · [Live demo](https://sofrana-swart.vercel.app) · Video: coming soon
 
 ![CI](https://github.com/sofrana/sofrana/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)

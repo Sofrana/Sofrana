@@ -8,7 +8,7 @@ Sofrana aynı yemeğin onlarca versiyonunu karşılaştırır, aşçıların ço
 
 *Sofrana — her yemeğin tek tarifi.*
 
-[Yol haritası](docs/ROADMAP.md) · [English](README.md) · Canlı demo ve video: yakında
+[Yol haritası](docs/ROADMAP.md) · [English](README.md) · [Canlı demo](https://sofrana-swart.vercel.app) · Video: yakında
 
 </div>
 
