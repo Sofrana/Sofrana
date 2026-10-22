@@ -7,5 +7,19 @@
     "tagline": "Her yemek için tek tarif, verilerle desteklenmiş.",
     "status": "Yapım aşamasında.",
     "switchLanguage": "English"
+  },
+  "Auth": {
+    "title": "Yönetici girişi",
+    "email": "E-posta",
+    "password": "Şifre",
+    "signIn": "Giriş yap",
+    "signingIn": "Giriş yapılıyor…",
+    "invalidCredentials": "E-posta veya şifre hatalı.",
+    "missingFields": "E-posta ve şifre gerekli."
+  },
+  "Admin": {
+    "title": "Yönetim",
+    "signedInAs": "{email} olarak giriş yapıldı",
+    "signOut": "Çıkış yap"
   }
 }

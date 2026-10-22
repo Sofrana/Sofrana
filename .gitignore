@@ -28,3 +28,6 @@ public/sw.js.map
 next-env.d.ts
 .vercel
 *.pem
+
+# Visual Studio
+.vs/
