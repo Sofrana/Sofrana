@@ -12,7 +12,7 @@ Sofrana aynı yemeğin onlarca versiyonunu karşılaştırır, aşçıların ço
 
 </div>
 
-> **Durum:** geliştirme aşamasında (12 haftanın 1. haftası). İki junior full stack geliştiricinin ticari olmayan portföy projesidir.
+> **Durum:** geliştirme aşamasında (10 günlük planın 1. günü). İki junior full stack geliştiricinin iki haftada yaptığı, ticari olmayan portföy projesidir.
 
 ---
 
@@ -34,7 +34,7 @@ Sofrana bunu üç fikirle çözer:
 | 2 | **Akıllı kişi sayısı ve Menü oluştur** | Birim dönüşümü, doğrusal olmayan ölçekleme, pişirme sırası planlayıcı | B |
 | 3 | **Sesli mutfak modu** | Konuşma tanıma, kural tabanlı komut çözümleme, Claude araç kullanımı | B |
 | 4 | **"Elimde ne var?" araması** | Postgres tam metin ve trigram arama, yazım hatasına dayanıklılık | A |
-| 5 | **Yöresel mutfak haritası** | 15 ilin etkileşimli SVG haritası, yöresel varyasyonlar | A |
+| 5 | **Yöresel mutfak haritası** | 5 ilin etkileşimli SVG haritası ve yemekleri | A |
 | 6 | **Telefona yüklenebilir (PWA)** | Ana ekrana ekleme, pişirirken ekranın açık kalması, son tarifler internetsiz | B |
 
 Her birimiz üç özelliğin veritabanından ekrana kadar sahibiyiz. Her özelliğin ölçülebilir "bitti" kriteri [yol haritasında](docs/ROADMAP.md#definition-of-done) yazılıdır.
@@ -98,8 +98,8 @@ pnpm dev                     # http://localhost:3000
 
 | | Sorumlu olduğu kısımlar |
 | --- | --- |
-| **A** · İsim A | Konsensüs hattı ve "Neden böyle?" paneli, "Elimde ne var?" araması, yöresel harita · veritabanı şeması, veri betikleri, yönetim formu |
-| **B** · İsim B | Kişi sayısı ve Menü oluştur, sesli mutfak modu, PWA · proje kurulumu, CI, tasarım sistemi, giriş |
+| **A** · İsim A | Konsensüs hattı ve "Neden böyle?" paneli, "Elimde ne var?" araması, yöresel harita · veritabanı şeması, veri betikleri, yönetim formu, giriş |
+| **B** · [@kutluktaskin](https://github.com/kutluktaskin) | Kişi sayısı ve Menü oluştur, sesli mutfak modu, PWA · proje kurulumu, CI, Vercel, tasarım sistemi |
 
 Her PR'ı diğerimiz inceleyip onaylamadan birleştirilmez. Ayrıntılar için [CONTRIBUTING.md](CONTRIBUTING.md).
 
