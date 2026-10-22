@@ -39,3 +39,8 @@ jobs:
       - name: Test
         if: hashFiles('pnpm-lock.yaml') != ''
         run: pnpm test
+
+      # Catches prerender errors before Vercel does (the live site broke once on this)
+      - name: Build
+        if: hashFiles('pnpm-lock.yaml') != ''
+        run: pnpm build
