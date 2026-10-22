@@ -22,3 +22,9 @@ public/sw.js.map
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+# Next.js / TypeScript
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+*.pem
