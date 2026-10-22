@@ -45,3 +45,14 @@ Sofrana is a recipe platform built as a single Next.js app that is also installa
 
 - Conventional Commits (`feat:`, `fix:`, `docs:`, `test:`, `refactor:`).
 - Keep changes focused on the issue being worked on.
+
+## Attribution
+
+- Never add Claude attribution anywhere in the project: no `Co-authored-by: Claude` trailers in commits, no "Generated with Claude Code" footers in pull requests, issues, milestones or comments.
+- Do not write pull request, issue or comment text through the GitHub API, because it appends that footer. Prepare the text and let the author paste it, or edit it in the author's browser.
+
+## Language
+
+- Issue titles and bodies, labels, milestones, commit message descriptions, and pull request titles and descriptions are in Turkish.
+- Keep in English: Conventional Commit prefixes (`feat:`, `fix:` …), code identifiers, file names and branch names.
+- `README.md` is English and `README.tr.md` is Turkish; keep both in sync. Other docs in the repo stay in English.
