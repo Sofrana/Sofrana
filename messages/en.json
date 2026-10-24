@@ -22,6 +22,46 @@
     "signedInAs": "Signed in as {email}",
     "signOut": "Sign out"
   },
+  "AdminForm": {
+    "dish": "Dish",
+    "dishSelect": "Dish",
+    "newDish": "+ New dish",
+    "nameTr": "Turkish name",
+    "nameEn": "English name",
+    "meal": "Meal",
+    "meals": {
+      "breakfast": "Breakfast",
+      "soup": "Soup",
+      "main": "Main",
+      "side": "Side",
+      "dessert": "Dessert"
+    },
+    "version": "Version",
+    "sourceUrl": "Source URL",
+    "rating": "Rating (0–5)",
+    "voteCount": "Vote count",
+    "copyrightNote": "Only the ingredient list and quantities are stored. Recipe text and photos are never copied.",
+    "ingredients": "Ingredients",
+    "pasteLabel": "Paste the ingredient list (one ingredient per line)",
+    "split": "Split",
+    "working": "Working…",
+    "rowText": "Ingredient line",
+    "rowQuantity": "Quantity",
+    "rowUnit": "Unit",
+    "removeRow": "Remove line",
+    "save": "Save",
+    "saved": "Version saved.",
+    "errors": {
+      "unauthorized": "Session not found, sign in again.",
+      "empty": "Paste an ingredient list first.",
+      "failed": "Something went wrong, try again.",
+      "dish": "Dish name is required.",
+      "sourceUrl": "Enter a valid source URL (http or https).",
+      "rating": "Rating must be between 0 and 5.",
+      "voteCount": "Vote count must be a whole number.",
+      "lines": "At least one ingredient line is required."
+    }
+  },
   "Logo": {
     "label": "Sofrana"
   },

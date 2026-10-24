@@ -22,6 +22,46 @@
     "signedInAs": "{email} olarak giriş yapıldı",
     "signOut": "Çıkış yap"
   },
+  "AdminForm": {
+    "dish": "Yemek",
+    "dishSelect": "Yemek",
+    "newDish": "+ Yeni yemek",
+    "nameTr": "Türkçe ad",
+    "nameEn": "İngilizce ad",
+    "meal": "Öğün",
+    "meals": {
+      "breakfast": "Kahvaltı",
+      "soup": "Çorba",
+      "main": "Ana yemek",
+      "side": "Yan yemek",
+      "dessert": "Tatlı"
+    },
+    "version": "Versiyon",
+    "sourceUrl": "Kaynak URL",
+    "rating": "Puan (0–5)",
+    "voteCount": "Oy sayısı",
+    "copyrightNote": "Yalnızca malzeme listesi ve miktarlar saklanır. Tarif metni ve fotoğraf kopyalanmaz.",
+    "ingredients": "Malzemeler",
+    "pasteLabel": "Malzeme listesini yapıştır (her satıra bir malzeme)",
+    "split": "Ayır",
+    "working": "Çalışıyor…",
+    "rowText": "Malzeme satırı",
+    "rowQuantity": "Miktar",
+    "rowUnit": "Birim",
+    "removeRow": "Satırı sil",
+    "save": "Kaydet",
+    "saved": "Versiyon kaydedildi.",
+    "errors": {
+      "unauthorized": "Oturum bulunamadı, tekrar giriş yap.",
+      "empty": "Önce bir malzeme listesi yapıştır.",
+      "failed": "Bir şey ters gitti, tekrar dene.",
+      "dish": "Yemek adı gerekli.",
+      "sourceUrl": "Geçerli bir kaynak URL gir (http veya https).",
+      "rating": "Puan 0 ile 5 arasında olmalı.",
+      "voteCount": "Oy sayısı tam sayı olmalı.",
+      "lines": "En az bir malzeme satırı gerekli."
+    }
+  },
   "Logo": {
     "label": "Sofrana"
   },
