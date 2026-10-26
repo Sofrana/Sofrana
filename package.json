@@ -14,7 +14,9 @@
     "format:check": "prettier --check .",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:seed": "tsx scripts/seed.ts"
+    "db:seed": "tsx scripts/seed.ts",
+    "pipeline:normalize": "tsx scripts/pipeline/normalize.ts",
+    "pipeline:normalize-batch": "tsx scripts/pipeline/normalize-batch.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",
