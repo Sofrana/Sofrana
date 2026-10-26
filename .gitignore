@@ -32,3 +32,5 @@ next-env.d.ts
 # Visual Studio
 .vs/
 scripts/pipeline/unmatched.json
+scripts/pipeline/batch.json
+scripts/pipeline/batch-review.json
